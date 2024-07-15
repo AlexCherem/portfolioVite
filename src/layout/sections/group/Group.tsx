@@ -1,5 +1,4 @@
-import React from 'react';
-import {Icon} from "../../../components/icon/Icon";
+import {Icon} from "@/components/icon/Icon";
 import {S} from './Group_Styled'
 
 

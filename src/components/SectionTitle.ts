@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {font} from "src/styles/Common";
+import {font} from "@/styles/Common";
 
 type Styled = {
     fontSize?: string

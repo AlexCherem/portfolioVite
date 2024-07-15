@@ -1,11 +1,11 @@
 import React from 'react';
 import styled from "styled-components";
-import {SectionTitle} from "src/components/SectionTitle";
-import {Container} from "src/components/Container";
-import {theme} from "src/styles/Theme"
-import {font} from "src/styles/Common";
-import {ContactsForm} from "src/layout/sections/contacts/contacts-form/ContactsForm";
-import {TelegramIcon} from "src/assets/telegram";
+import {SectionTitle} from "@/components/SectionTitle";
+import {Container} from "@/components/Container";
+import {theme} from "@/styles/Theme"
+import {font} from "@/styles/Common";
+import {ContactsForm} from "@/layout/sections/contacts/contacts-form/ContactsForm";
+import {TelegramIcon} from "@/assets/telegram";
 
 export const Title: React.FC = () => {
     return (

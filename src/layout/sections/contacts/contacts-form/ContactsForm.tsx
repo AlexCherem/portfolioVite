@@ -1,13 +1,11 @@
 import {ElementRef, useRef} from 'react'
-import {useTranslation} from 'react-i18next'
 
 import emailjs from '@emailjs/browser'
 import styled from 'styled-components'
-import {ButtonWithIcon} from "src/components/button-icon";
+import {ButtonWithIcon} from "@/components/button-icon";
 
 
 export const ContactsForm = () => {
-    const {t} = useTranslation()
 
     const form = useRef<ElementRef<'form'>>(null)
 
@@ -44,7 +42,7 @@ export const ContactsForm = () => {
 
             <Field as='textarea' name='message' placeholder='Message' required/>
 
-            <ButtonWithIcon type={'submit'}>{t('send message')}</ButtonWithIcon>
+            <ButtonWithIcon type={'submit'}>{'send message'}</ButtonWithIcon>
         </Form>
     )
 }

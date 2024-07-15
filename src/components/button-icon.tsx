@@ -1,7 +1,7 @@
 import { ComponentPropsWithoutRef, FC } from 'react'
 
 import styled from 'styled-components'
-import {Icon} from "src/components/icon/Icon";
+import {Icon} from "@/components/icon/Icon";
 
 type ButtonWithIconProps = {
     children: string

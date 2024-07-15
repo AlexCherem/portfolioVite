@@ -1,5 +1,4 @@
-import React from 'react';
-import {Icon} from "src/components/icon/Icon";
+import {Icon} from "@/components/icon/Icon";
 import {S} from "../Styled_Project"
 
 type ProjectPropsType = {

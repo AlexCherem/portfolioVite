@@ -1,7 +1,7 @@
 import { FC } from 'react'
 
 import styled from 'styled-components'
-import {ThemeIcon} from "src/assets/theme-icon";
+import {ThemeIcon} from "@/assets/theme-icon";
 
 type ToggleThemeBtnProps = {
     toggleTheme: () => void

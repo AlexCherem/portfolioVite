@@ -1,9 +1,9 @@
 import React from 'react';
-import myPhoto  from "src/assets/images/portfolio.png"
+import myPhoto  from "@/assets/images/portfolio.png"
 import styled from "styled-components";
-import {FlexContainer} from "src/components/FlexContainer";
-import {Container} from "src/components/Container";
-import {font} from "src/styles/Common";
+import {FlexContainer} from "@/components/FlexContainer";
+import {Container} from "@/components/Container";
+import {font} from "@/styles/Common";
 import Typewriter from 'typewriter-effect';
 
 export const Main: React.FC = () => {

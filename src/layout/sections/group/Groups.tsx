@@ -1,9 +1,9 @@
 import React from 'react';
-import {SectionTitle} from "../../../components/SectionTitle";
-import {SectionParagraph} from "../../../components/SectionParagraph";
+import {SectionTitle} from "@/components/SectionTitle";
+import {SectionParagraph} from "@/components/SectionParagraph";
 import {Group} from "./Group";
-import {Container} from "../../../components/Container";
-import {FlexContainer} from "../../../components/FlexContainer";
+import {Container} from "@/components/Container";
+import {FlexContainer} from "@/components/FlexContainer";
 import {S} from "./Group_Styled"
 
 const groupData = [

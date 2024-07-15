@@ -1,6 +1,6 @@
 import React from 'react';
-import {Menu} from "src/components/menu/Menu";
-import {Container} from "src/components/Container";
+import {Menu} from "@/components/menu/Menu";
+import {Container} from "@/components/Container";
 import {S} from './Styled_Footer'
 
 

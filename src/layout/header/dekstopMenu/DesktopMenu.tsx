@@ -1,6 +1,6 @@
 import React from 'react';
 import {S} from "../Header_Styles";
-import {Menu} from "src/components/menu/Menu";
+import {Menu} from "@/components/menu/Menu";
 
 type menuItemsProps = {
     menuItems: string[]

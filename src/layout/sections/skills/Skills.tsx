@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from "styled-components";
 
-import {SectionTitle} from "src/components/SectionTitle";
-import {SectionParagraph} from "src/components/SectionParagraph";
+import {SectionTitle} from "@/components/SectionTitle";
+import {SectionParagraph} from "@/components/SectionParagraph";
 import {StyledSkill} from "./StyledSkill";
-import {Container} from "src/components/Container";
+import {Container} from "@/components/Container";
 
 
 const skillData = [

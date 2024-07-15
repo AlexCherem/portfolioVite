@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {theme} from "src/styles/Theme";
+import {theme} from "@/styles/Theme";
 
 const MenuItems = styled.div`
   display: inline-block;  

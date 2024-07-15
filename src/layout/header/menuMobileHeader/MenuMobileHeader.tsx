@@ -2,7 +2,7 @@ import { FC, useState } from 'react'
 import { Link } from 'react-scroll'
 
 import styled, { css } from 'styled-components'
-import {darkTheme} from 'src/styles/Theme';
+import {darkTheme} from '@/styles/Theme';
 
 type MobileMenuProps = {
     menuItems: string[]

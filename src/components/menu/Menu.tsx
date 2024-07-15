@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import styled from "styled-components";
 import {Link} from "react-scroll";
-import {theme} from "src/styles/Theme";
+import {theme} from "@/styles/Theme";
 
 
 type menuItemsProps = {
@@ -19,14 +19,14 @@ export const Menu: React.FC<menuItemsProps> = ({menuItems, menuIsOpen}: menuItem
     return (
         <StyledMenu>
             <ul>
-                {menuItems.map((item, index) => {
+                {menuItems.map((item) => {
                     console.log(item)
                     return <li>
                         <NavLink
                             activeClass="active"
                             smooth={true}
                             spy={true}
-                            offset={item === "Contact" ? 30 : 20}
+                            offset={item === "Contact" ? 35 : 15}
                             to={item}
                             onClick={handleLinkClick}
                         >

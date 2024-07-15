@@ -1,11 +1,10 @@
 import React from 'react';
-import {SectionTitle} from "src/components/SectionTitle";
-import {SectionParagraph} from "src/components/SectionParagraph";
-import {FlexContainer} from "src/components/FlexContainer";
+import {SectionTitle} from "@/components/SectionTitle";
+import {FlexContainer} from "@/components/FlexContainer";
 import {Project} from "./project/Project";
-import projImg2 from "src/assets/images/todoList (1).png"
-import Learning from "src/assets/images/Learning (1).png"
-import {Container} from "src/components/Container"
+import projImg2 from "@/assets/images/todoList (1).png"
+import Learning from "@/assets/images/Learning (1).png"
+import {Container} from "@/components/Container"
 import styled from "styled-components";
 
 
